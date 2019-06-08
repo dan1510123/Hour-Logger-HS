@@ -1,0 +1,534 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		09CC43D61BCDC8B40038D68A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 09CC43D51BCDC8B40038D68A /* main.m */; };
+		09CC43D91BCDC8B40038D68A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 09CC43D81BCDC8B40038D68A /* AppDelegate.m */; };
+		09CC43DC1BCDC8B40038D68A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 09CC43DB1BCDC8B40038D68A /* ViewController.m */; };
+		09CC43DF1BCDC8B40038D68A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09CC43DD1BCDC8B40038D68A /* Main.storyboard */; };
+		09CC43E11BCDC8B40038D68A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09CC43E01BCDC8B40038D68A /* Assets.xcassets */; };
+		09CC43E41BCDC8B40038D68A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09CC43E21BCDC8B40038D68A /* LaunchScreen.storyboard */; };
+		09CC43EF1BCDC8B40038D68A /* Hour_Logger_ProTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 09CC43EE1BCDC8B40038D68A /* Hour_Logger_ProTests.m */; };
+		09CC43FA1BCDC8B40038D68A /* Hour_Logger_ProUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 09CC43F91BCDC8B40038D68A /* Hour_Logger_ProUITests.m */; };
+		09CC440A1BCDC8F50038D68A /* rugbypic.png in Resources */ = {isa = PBXBuildFile; fileRef = 09CC44071BCDC8F50038D68A /* rugbypic.png */; settings = {ASSET_TAGS = (); }; };
+		09CC440B1BCDC8F50038D68A /* foodbankpic.png in Resources */ = {isa = PBXBuildFile; fileRef = 09CC44081BCDC8F50038D68A /* foodbankpic.png */; settings = {ASSET_TAGS = (); }; };
+		09CC440C1BCDC8F50038D68A /* chesspic.png in Resources */ = {isa = PBXBuildFile; fileRef = 09CC44091BCDC8F50038D68A /* chesspic.png */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		09CC43EB1BCDC8B40038D68A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 09CC43C91BCDC8B40038D68A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 09CC43D01BCDC8B40038D68A;
+			remoteInfo = "Hour Logger Pro";
+		};
+		09CC43F61BCDC8B40038D68A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 09CC43C91BCDC8B40038D68A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 09CC43D01BCDC8B40038D68A;
+			remoteInfo = "Hour Logger Pro";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		09CC43D11BCDC8B40038D68A /* Hour Logger Pro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hour Logger Pro.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		09CC43D51BCDC8B40038D68A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		09CC43D71BCDC8B40038D68A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		09CC43D81BCDC8B40038D68A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		09CC43DA1BCDC8B40038D68A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		09CC43DB1BCDC8B40038D68A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		09CC43DE1BCDC8B40038D68A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		09CC43E01BCDC8B40038D68A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		09CC43E31BCDC8B40038D68A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		09CC43E51BCDC8B40038D68A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		09CC43EA1BCDC8B40038D68A /* Hour Logger ProTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Hour Logger ProTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		09CC43EE1BCDC8B40038D68A /* Hour_Logger_ProTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Hour_Logger_ProTests.m; sourceTree = "<group>"; };
+		09CC43F01BCDC8B40038D68A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		09CC43F51BCDC8B40038D68A /* Hour Logger ProUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Hour Logger ProUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		09CC43F91BCDC8B40038D68A /* Hour_Logger_ProUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Hour_Logger_ProUITests.m; sourceTree = "<group>"; };
+		09CC43FB1BCDC8B40038D68A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		09CC44071BCDC8F50038D68A /* rugbypic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rugbypic.png; sourceTree = "<group>"; };
+		09CC44081BCDC8F50038D68A /* foodbankpic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = foodbankpic.png; sourceTree = "<group>"; };
+		09CC44091BCDC8F50038D68A /* chesspic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chesspic.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		09CC43CE1BCDC8B40038D68A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09CC43E71BCDC8B40038D68A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09CC43F21BCDC8B40038D68A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		09CC43C81BCDC8B40038D68A = {
+			isa = PBXGroup;
+			children = (
+				09CC43D31BCDC8B40038D68A /* Hour Logger Pro */,
+				09CC43ED1BCDC8B40038D68A /* Hour Logger ProTests */,
+				09CC43F81BCDC8B40038D68A /* Hour Logger ProUITests */,
+				09CC43D21BCDC8B40038D68A /* Products */,
+				09CC44071BCDC8F50038D68A /* rugbypic.png */,
+				09CC44081BCDC8F50038D68A /* foodbankpic.png */,
+				09CC44091BCDC8F50038D68A /* chesspic.png */,
+			);
+			sourceTree = "<group>";
+		};
+		09CC43D21BCDC8B40038D68A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				09CC43D11BCDC8B40038D68A /* Hour Logger Pro.app */,
+				09CC43EA1BCDC8B40038D68A /* Hour Logger ProTests.xctest */,
+				09CC43F51BCDC8B40038D68A /* Hour Logger ProUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		09CC43D31BCDC8B40038D68A /* Hour Logger Pro */ = {
+			isa = PBXGroup;
+			children = (
+				09CC43D71BCDC8B40038D68A /* AppDelegate.h */,
+				09CC43D81BCDC8B40038D68A /* AppDelegate.m */,
+				09CC43DA1BCDC8B40038D68A /* ViewController.h */,
+				09CC43DB1BCDC8B40038D68A /* ViewController.m */,
+				09CC43DD1BCDC8B40038D68A /* Main.storyboard */,
+				09CC43E01BCDC8B40038D68A /* Assets.xcassets */,
+				09CC43E21BCDC8B40038D68A /* LaunchScreen.storyboard */,
+				09CC43E51BCDC8B40038D68A /* Info.plist */,
+				09CC43D41BCDC8B40038D68A /* Supporting Files */,
+			);
+			path = "Hour Logger Pro";
+			sourceTree = "<group>";
+		};
+		09CC43D41BCDC8B40038D68A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				09CC43D51BCDC8B40038D68A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		09CC43ED1BCDC8B40038D68A /* Hour Logger ProTests */ = {
+			isa = PBXGroup;
+			children = (
+				09CC43EE1BCDC8B40038D68A /* Hour_Logger_ProTests.m */,
+				09CC43F01BCDC8B40038D68A /* Info.plist */,
+			);
+			path = "Hour Logger ProTests";
+			sourceTree = "<group>";
+		};
+		09CC43F81BCDC8B40038D68A /* Hour Logger ProUITests */ = {
+			isa = PBXGroup;
+			children = (
+				09CC43F91BCDC8B40038D68A /* Hour_Logger_ProUITests.m */,
+				09CC43FB1BCDC8B40038D68A /* Info.plist */,
+			);
+			path = "Hour Logger ProUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		09CC43D01BCDC8B40038D68A /* Hour Logger Pro */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 09CC43FE1BCDC8B40038D68A /* Build configuration list for PBXNativeTarget "Hour Logger Pro" */;
+			buildPhases = (
+				09CC43CD1BCDC8B40038D68A /* Sources */,
+				09CC43CE1BCDC8B40038D68A /* Frameworks */,
+				09CC43CF1BCDC8B40038D68A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Hour Logger Pro";
+			productName = "Hour Logger Pro";
+			productReference = 09CC43D11BCDC8B40038D68A /* Hour Logger Pro.app */;
+			productType = "com.apple.product-type.application";
+		};
+		09CC43E91BCDC8B40038D68A /* Hour Logger ProTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 09CC44011BCDC8B40038D68A /* Build configuration list for PBXNativeTarget "Hour Logger ProTests" */;
+			buildPhases = (
+				09CC43E61BCDC8B40038D68A /* Sources */,
+				09CC43E71BCDC8B40038D68A /* Frameworks */,
+				09CC43E81BCDC8B40038D68A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				09CC43EC1BCDC8B40038D68A /* PBXTargetDependency */,
+			);
+			name = "Hour Logger ProTests";
+			productName = "Hour Logger ProTests";
+			productReference = 09CC43EA1BCDC8B40038D68A /* Hour Logger ProTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		09CC43F41BCDC8B40038D68A /* Hour Logger ProUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 09CC44041BCDC8B40038D68A /* Build configuration list for PBXNativeTarget "Hour Logger ProUITests" */;
+			buildPhases = (
+				09CC43F11BCDC8B40038D68A /* Sources */,
+				09CC43F21BCDC8B40038D68A /* Frameworks */,
+				09CC43F31BCDC8B40038D68A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				09CC43F71BCDC8B40038D68A /* PBXTargetDependency */,
+			);
+			name = "Hour Logger ProUITests";
+			productName = "Hour Logger ProUITests";
+			productReference = 09CC43F51BCDC8B40038D68A /* Hour Logger ProUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		09CC43C91BCDC8B40038D68A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Daniel Luo";
+				TargetAttributes = {
+					09CC43D01BCDC8B40038D68A = {
+						CreatedOnToolsVersion = 7.0.1;
+						DevelopmentTeam = 846478HS43;
+					};
+					09CC43E91BCDC8B40038D68A = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = 09CC43D01BCDC8B40038D68A;
+					};
+					09CC43F41BCDC8B40038D68A = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = 09CC43D01BCDC8B40038D68A;
+					};
+				};
+			};
+			buildConfigurationList = 09CC43CC1BCDC8B40038D68A /* Build configuration list for PBXProject "Hour Logger Pro" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 09CC43C81BCDC8B40038D68A;
+			productRefGroup = 09CC43D21BCDC8B40038D68A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				09CC43D01BCDC8B40038D68A /* Hour Logger Pro */,
+				09CC43E91BCDC8B40038D68A /* Hour Logger ProTests */,
+				09CC43F41BCDC8B40038D68A /* Hour Logger ProUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		09CC43CF1BCDC8B40038D68A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09CC440A1BCDC8F50038D68A /* rugbypic.png in Resources */,
+				09CC43E41BCDC8B40038D68A /* LaunchScreen.storyboard in Resources */,
+				09CC43E11BCDC8B40038D68A /* Assets.xcassets in Resources */,
+				09CC43DF1BCDC8B40038D68A /* Main.storyboard in Resources */,
+				09CC440B1BCDC8F50038D68A /* foodbankpic.png in Resources */,
+				09CC440C1BCDC8F50038D68A /* chesspic.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09CC43E81BCDC8B40038D68A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09CC43F31BCDC8B40038D68A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		09CC43CD1BCDC8B40038D68A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09CC43DC1BCDC8B40038D68A /* ViewController.m in Sources */,
+				09CC43D91BCDC8B40038D68A /* AppDelegate.m in Sources */,
+				09CC43D61BCDC8B40038D68A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09CC43E61BCDC8B40038D68A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09CC43EF1BCDC8B40038D68A /* Hour_Logger_ProTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09CC43F11BCDC8B40038D68A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09CC43FA1BCDC8B40038D68A /* Hour_Logger_ProUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		09CC43EC1BCDC8B40038D68A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 09CC43D01BCDC8B40038D68A /* Hour Logger Pro */;
+			targetProxy = 09CC43EB1BCDC8B40038D68A /* PBXContainerItemProxy */;
+		};
+		09CC43F71BCDC8B40038D68A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 09CC43D01BCDC8B40038D68A /* Hour Logger Pro */;
+			targetProxy = 09CC43F61BCDC8B40038D68A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		09CC43DD1BCDC8B40038D68A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				09CC43DE1BCDC8B40038D68A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		09CC43E21BCDC8B40038D68A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				09CC43E31BCDC8B40038D68A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		09CC43FC1BCDC8B40038D68A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		09CC43FD1BCDC8B40038D68A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		09CC43FF1BCDC8B40038D68A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "Hour Logger Pro/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "danielluo.Hour-Logger-Pro";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		09CC44001BCDC8B40038D68A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "Hour Logger Pro/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "danielluo.Hour-Logger-Pro";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		09CC44021BCDC8B40038D68A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Hour Logger ProTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "danielluo.Hour-Logger-ProTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hour Logger Pro.app/Hour Logger Pro";
+			};
+			name = Debug;
+		};
+		09CC44031BCDC8B40038D68A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Hour Logger ProTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "danielluo.Hour-Logger-ProTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hour Logger Pro.app/Hour Logger Pro";
+			};
+			name = Release;
+		};
+		09CC44051BCDC8B40038D68A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Hour Logger ProUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "danielluo.Hour-Logger-ProUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Hour Logger Pro";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		09CC44061BCDC8B40038D68A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Hour Logger ProUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "danielluo.Hour-Logger-ProUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Hour Logger Pro";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		09CC43CC1BCDC8B40038D68A /* Build configuration list for PBXProject "Hour Logger Pro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09CC43FC1BCDC8B40038D68A /* Debug */,
+				09CC43FD1BCDC8B40038D68A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		09CC43FE1BCDC8B40038D68A /* Build configuration list for PBXNativeTarget "Hour Logger Pro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09CC43FF1BCDC8B40038D68A /* Debug */,
+				09CC44001BCDC8B40038D68A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		09CC44011BCDC8B40038D68A /* Build configuration list for PBXNativeTarget "Hour Logger ProTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09CC44021BCDC8B40038D68A /* Debug */,
+				09CC44031BCDC8B40038D68A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		09CC44041BCDC8B40038D68A /* Build configuration list for PBXNativeTarget "Hour Logger ProUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09CC44051BCDC8B40038D68A /* Debug */,
+				09CC44061BCDC8B40038D68A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 09CC43C91BCDC8B40038D68A /* Project object */;
+}
